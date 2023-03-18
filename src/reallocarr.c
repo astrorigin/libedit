@@ -29,7 +29,7 @@
  * SUCH DAMAGE.
  */
 
-#if !HAVE_REALLOCARR
+#ifndef HAVE_REALLOCARR
 
 #include "config.h"
 

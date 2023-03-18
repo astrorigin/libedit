@@ -53,7 +53,7 @@ __RCSID("$NetBSD: unvis.c,v 1.45 2022/04/19 20:32:15 rillig Exp $");
 __weak_alias(strnunvisx,_strnunvisx)
 #endif
 
-#if !HAVE_VIS
+#ifndef HAVE_VIS
 /*
  * decode driven by state machine
  */
